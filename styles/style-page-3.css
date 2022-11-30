@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/fuckyou.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+li{
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: .6s ease;
+}
+
+a {
+    color: #000;
+  }
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  a:hover, a:active, a:focus {
+    color:rgb(15, 15, 15);
+  }
+
+.wrapper{
+    width: 100%;
+}
+
+.img-info{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    padding: 30px 20px 20px;
+    font-family: Verdana;
+    font-size: 30px;
+    color: #f7f7f7;
+    line-height: 44px;
+}
+
+.img-info p{
+    padding: 15px ;
+    font-family: Verdana ;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 1.7em;
+    font-size: o.1em;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+.img-info h3{
+    font-size: 16px;
+    font-family: verdana;
+    padding: 20px;
+}
+
+
+.me{
+    width: 100%;
+}
+
+.lex{
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: sticky;
+    right: 0;
+    font-family: "Open Sans";
+    color: #fff;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 13px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .2;
+    font-weight: 200;
+}

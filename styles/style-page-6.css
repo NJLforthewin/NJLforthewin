@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/fuckyou.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box  ;
+}
+
+ul{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+li{
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(235, 230, 230);
+    padding: 10px 20px;
+    transition: .6s ease;
+}
+
+.lex{
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+a {
+    color: #000;
+  }
+  a:visited {
+    color: #fff;
+  }
+
+  a:hover, a:active, a:focus {
+    color:rgb(15, 15, 15);
+  }
+
+.kos {
+    float: left;
+    margin: 10px 20px 10px;
+    border-radius: 20%;
+}
+
+.fex {
+    float: right;
+    margin: 10px 20px 10px;
+    border-radius: 20%;
+}
+.ex {
+    float: left;
+    margin: 10px 20px 10px;
+    border-radius: 20%;
+}
+.ec {
+    float: right;
+    margin: 10px 20px 10px;
+    border-radius: 20%;
+}
+.ev {
+    float: left;
+    margin: 10px 20px 10px;
+    border-radius: 20%;
+}
+
+h2{
+    text-align: center;
+    padding: 30px 20px 20px;
+    font-family: Verdana;
+    font-size: 30px;
+    color: rgb(224, 219, 219);
+    line-height: 44px;
+}
+
+.container p{
+    padding: 50px 20px 20px;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 1.9em;
+    font-size: o.1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+footer{
+    position: sticky;
+    right: 0;
+    font-family: "Open Sans";
+    color: #fff;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 20px;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 0;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .2;
+    font-weight: 200;
+}
+
